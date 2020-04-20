@@ -6,6 +6,7 @@ class Snack {
     this.isInLunchBox = false;
     this.cuttingItClose = false;
     this.healthy = this.type.includes("Fruit") || false;
+    this.healthySnacks = []
       // if (this.type.includes("Fruit")) {
       //   this.healthy = true;
       // }
